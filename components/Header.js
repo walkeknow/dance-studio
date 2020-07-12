@@ -17,6 +17,7 @@ function Header({ navigation }) {
             headerTitle: (props) => <HeaderLogo {...props} />,
             headerStyle: {
               backgroundColor: dark,
+              shadowColor: dark,
             },
             headerLeft: () => (
               <TouchableOpacity

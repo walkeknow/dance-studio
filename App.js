@@ -3,10 +3,10 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createDrawerNavigator } from '@react-navigation/drawer'
 import Header from './components/Header'
 import { primary, accent, dark, white } from './utils/colors'
-import About from './components/mockComponents/About'
-import Schedule from './components/mockComponents/Schedule'
-import Gallery from './components/mockComponents/Gallery'
-import Contact from './components/mockComponents/Contact'
+import About from './components/About'
+import Schedule from './components/Schedule'
+import Gallery from './components/Gallery'
+import Contact from './components/Contact'
 
 const Drawer = createDrawerNavigator()
 

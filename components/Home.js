@@ -1,11 +1,22 @@
 import React, { Component } from 'react'
 import { Text, View, StyleSheet, ScrollView } from 'react-native'
+import Banner from './Banner'
+import Subscribe from './Subscribe'
+import Gallery from './Gallery'
+import Schedule from './Schedule'
+import Contact from './Contact'
+import About from './About'
 
 export class Home extends Component {
   render() {
     return (
       <ScrollView>
-        <Text>textInComponent</Text>
+        <Banner/>
+        <Gallery/>
+        <Subscribe/>
+        <Schedule/>
+        <Contact/>
+        <About/>
       </ScrollView>
     )
   }
