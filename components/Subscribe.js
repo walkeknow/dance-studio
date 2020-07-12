@@ -23,7 +23,7 @@ const Subscribe = () => {
         </View>
       </View>
       <View style={styles.form}>
-        <TextInput style={styles.input} placeholder='Email Address' />
+        <TextInput style={styles.input} placeholder='Email Address' autoCompleteType='email' textContentType='emailAddress'/>
         <View style={styles.buttonContainer}>
           <TouchableOpacity style={[styles.button, { padding: 10 }]}>
             <Text style={{ fontSize: 10, fontWeight: '500' }}>Subscribe</Text>
