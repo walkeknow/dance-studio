@@ -1,7 +1,6 @@
 import React from 'react'
-import { View, Text, StyleSheet, TextInput } from 'react-native'
+import { View, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native'
 import { primary, white, light } from '../utils/colors'
-import { TouchableOpacity } from 'react-native-gesture-handler'
 
 const Subscribe = () => {
   return (

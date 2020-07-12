@@ -3,10 +3,6 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createDrawerNavigator } from '@react-navigation/drawer'
 import Header from './components/Header'
 import { primary, accent, dark, white } from './utils/colors'
-import About from './components/About'
-import Schedule from './components/Schedule'
-import Gallery from './components/Gallery'
-import Contact from './components/Contact'
 
 const Drawer = createDrawerNavigator()
 
@@ -24,8 +20,6 @@ export default function App() {
           inactiveTintColor: white,
         }}
       >
-        {/* All components in Drawer are mapped to Header currently, but can be 
-        changed once other screens are implemented*/}
         <Drawer.Screen name='Home' component={Header} />
         <Drawer.Screen name='About' component={Header} />
         <Drawer.Screen name='Schedule' component={Header} />
