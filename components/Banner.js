@@ -15,10 +15,10 @@ const Banner = () => {
       style={styles.bannerContainer}
     >
       <View style={styles.bannerText}>
-        <Text style={{ fontSize: 35, fontWeight: '500', color: white }}>
+        <Text style={{ fontSize: 38, fontWeight: '500', color: white }}>
           Dance
         </Text>
-        <Text style={{ fontSize: 35, fontWeight: '500', color: accent }}>
+        <Text style={{ fontSize: 38, fontWeight: '500', color: accent }}>
           Studio
         </Text>
         <Text style={{ fontSize: 10, color: white }}>
